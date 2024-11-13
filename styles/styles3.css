@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background:
+        radial-gradient(at 50% 0%, #83a8bc, 20%, transparent 40%),
+        linear-gradient(#5e849b, 50%, #223c56);
+    min-height: calc(100vh - 100px);
+}
+
+p {
+    color: #fff;
+    font-family: 'Lato';
+}
+
+.main {
+    margin: 100px auto 30px auto;
+    background: linear-gradient(#182231, 80%, #00926f);
+    height: 640px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 0em 2em 10em 0em #223c56;
+}
+
+.date {
+    padding-top: 40px;
+}
+
+.date-text {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* .city {} */
+
+.city-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.icon-big {
+    padding-top: 0px;
+    height: 210px;
+    background-image: url("../images/icons/big-icon2.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .weather-condition {} */
+
+.weather-text {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.temperature-now {
+    padding-top: 10px;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.temperature-now-text {
+    color: #fff;
+}
+
+.weekDay-block {
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+}
+
+.day {
+    width: 16.66%;
+}
+
+.icon-small {
+    color: #fff;
+    height: 61px;
+}
+
+.weekDay {
+    color: #fff;
+    height: 33px;
+}
+
+.temperature-max {
+    color: #273450;
+    height: 33px;
+}
+
+.temperature-max-text {
+    color: #273450;
+    font-weight: 300;
+}
+
+.temperature-min {
+    color: #fff;
+    height: 33px;
+}
+
+.text-weekDay {
+    color: #fff;
+    font-weight: 300;
+}
